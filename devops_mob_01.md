@@ -46,7 +46,7 @@ Main point about version 3 : it's compatible with both docker-compose and swarm.
 
 The web container depends on the db container. It uses docker name service and docker default network to communicate with the db container.
 
-4 volumes are configurated for the web container : 
+4 volumes are configured for the web container : 
 
 - The first volume is bind-mounted <https://docs.docker.com/storage/bind-mounts/>
 - The three others are regular ones
